@@ -2145,6 +2145,12 @@ input, select, textarea {
 				border-radius: 100%;
 				width: 100%;
 			}
+			/*Images resize*/
+.project-img {
+	width: 100%;
+	height: 300px; /* Adjust this height if needed */
+	object-fit: cover;
+	}
 
 /* List */
 
@@ -2238,6 +2244,12 @@ input, select, textarea {
 				top: 0;
 				width: 1em;
 			}
+			.social-icons {
+				display: flex;
+				gap: 20px; /* space between icons */
+				align-items: center;
+			  }
+			  
 
 /* Actions */
 
@@ -3219,11 +3231,6 @@ input, select, textarea {
 			}
 
 
-/*Images resize*/
-.project-img {
-width: 100%;
-height: 200px; /* Adjust this height if needed */
-object-fit: cover;
-}
+
 		
 }
